@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 10:21:24 AM"/>
+        <attribute name="created" value="VVNFUjtERVNLVE9QLVZNNEhUODI7MjAyMi0xMC0yODswOToyNjoxMSBBTTsyNjQ0"/>
+        <attribute name="edited" value="VVNFUjtERVNLVE9QLVZNNEhUODI7MjAyMi0xMC0yODsxMDoyMToyNCBBTTs3OzI3NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="eng" type="Integer" array="False" size=""/>
+            <output expression="&quot;Marks in english : &quot;" newline="True"/>
+            <input variable="eng"/>
+            <declare name="mat" type="Integer" array="False" size=""/>
+            <output expression="&quot;Marks in maths : &quot;" newline="True"/>
+            <input variable="mat"/>
+            <declare name="phy" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter phy marks : &quot;" newline="True"/>
+            <input variable="phy"/>
+            <declare name="che" type="Integer" array="False" size=""/>
+            <output expression="&quot;Marks in che : &quot;" newline="True"/>
+            <input variable="che"/>
+            <declare name="cs" type="Integer" array="False" size=""/>
+            <output expression="&quot;Marks in cs : &quot;" newline="True"/>
+            <input variable="cs"/>
+            <declare name="sem" type="Integer" array="False" size=""/>
+            <output expression="&quot;SEM.NO : &quot;" newline="True"/>
+            <input variable="sem"/>
+            <declare name="total" type="Integer" array="False" size=""/>
+            <comment text="SUM OF ALL 5 SUBJECTS&#13;&#10;"/>
+            <assign variable="total" expression="eng + mat + phy + che + cs"/>
+            <declare name="avg" type="Real" array="False" size=""/>
+            <comment text="AVERAGE"/>
+            <assign variable="avg" expression="total/5"/>
+            <declare name="rollno" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter your roll number : &quot;" newline="True"/>
+            <input variable="rollno"/>
+            <declare name="name" type="String" array="False" size=""/>
+            <output expression="&quot;Enter your name : &quot;" newline="True"/>
+            <input variable="name"/>
+            <declare name="address" type="String" array="False" size=""/>
+            <output expression="&quot;Enter your address : &quot;" newline="True"/>
+            <input variable="address"/>
+            <declare name="bloodgroup" type="String" array="False" size=""/>
+            <output expression="&quot;Enter your blood group : &quot;" newline="True"/>
+            <input variable="bloodgroup"/>
+            <declare name="phnumber" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter your phone number : &quot;" newline="True"/>
+            <input variable="phnumber"/>
+            <declare name="deptassigned" type="String" array="False" size=""/>
+            <output expression="&quot;Enter your deptartment : &quot;" newline="True"/>
+            <input variable="deptassigned"/>
+            <output expression="&quot;ROLL NO : &quot;&amp;rollno&amp;&#13;&#10;&quot;, TOTAL : &quot;&amp;total&amp;&#13;&#10;&quot;, AVERAGE : &quot;&amp;avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
